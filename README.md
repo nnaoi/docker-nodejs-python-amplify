@@ -4,7 +4,6 @@ AWS Amplify + AppSync + lambda(Python) + React のための開発環境。
 1. `Dockerfile` をアプリのプロジェクトルートに置いて、カレントディレクトリもそこに移動して以下を実行。
 ```
 docker build -t amplifyapp:1.0 ./
-
 ```  
 amplifyapp の部分は名前。なんでもいい。  
 1.0 の部分はバージョン。なんでもいい。  
