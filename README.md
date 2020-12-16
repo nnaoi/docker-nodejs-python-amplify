@@ -17,3 +17,5 @@ docker run -it --name amplifyapp1 -p 3000:3000 -v $PWD:/usr/src/app amplifyapp:1
 http://localhost:3000/  
 にアクセスするとつながるはず
 
+# base
+https://hub.docker.com/r/nikolaik/python-nodejs
