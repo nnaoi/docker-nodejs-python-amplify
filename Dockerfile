@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.9-nodejs12
+FROM nikolaik/python-nodejs:python3.8-nodejs14
 WORKDIR /usr/src/app
 COPY ["package.json", "yarn.lock", "./"]
 RUN yarn install
